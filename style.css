@@ -1,129 +1,106 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: verdana;
-}
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    height: 100px;
-    background-color: #333;
-    width: 100%;
-    position: fixed;
-    top: 0;
-}
-
-#logo{
-    color: azure;
-}
-
-.menu{
-    display: flex;
-    gap: 25px;
-}
-
-.menu, a{
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 20px;
-    transition: .5s;
-}
-
-main section{
-    padding-top: 120px;
-    min-height: 100vh;
+body{
+    
     text-align: center;
+    background-color: aquamarine; 
+    border: 2px solid;
+    color: blue;
+    margin: 0px;
+    padding: 0px;
+    
 }
 
-#projetos{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: darkcyan;
+img{
+
+    width: 250px;
+    
 }
 
-.projeto{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-weight: bold;
-    height: 300px;
-    width: 25%;
-    border: 2px solid #000;
-    border-radius: 10px;
-    padding: 20px;
+div{
+    
+    text-align: center;
+    
 }
 
-.main{
-    color: #fff;
-    text-decoration: none;
-    padding: 20px;
-    background-color: #0055ff;
-    margin-top: 20px;
-    border: none;
-    outline: none;
-    border-radius: 8px;
-    transition: .5s;
+style{
+    background-color: aquamarine;
 }
 
-.main :hover{
-    color: #0055ff;
-    background-color: #fff;
+.minhaclasse{
+    color: orangered;
+    background-color: blue;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#contato{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 90vw;
+p{
+  
+    text-align: center;
+    color: blue;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-.form-contato{
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
+.p{
+
+    text-align: center;
+
 }
 
-input, textarea{
-    width: 100%;
-    padding: 12px, 15px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    font-size: 16px;
+
+.descrição{
+    
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: azure;
+    margin: 100px;
+    border: 3px;
+    padding: 10px;
+
+    
 }
 
-textarea{
-    height: 150px;
-    resize: none;
+.minhaclasse2{
+
+    color: blue;
+    background-color: orangered;
+    text-align: center;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
-.form-contato button{
-    padding: 12px, 15px;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
+.naveg{
+
+    width: 30px;
+    
 }
 
-footer{
-    height: 80px;
-    background-color: #333;
-    color: #fff;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.bloco{
+   /* text-align: center; */
+   display: inline-block;
+   width: 600px;
+   margin-right: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+} 
+
+nav :hover{
+    background-color: aqua
+}
+.naveg:hover{
+    width: 40px;
 }
 
-#verMais{
-    color: #0055ff;
+button{
+    color: blueviolet;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 250px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }

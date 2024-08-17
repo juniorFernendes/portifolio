@@ -3,50 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio JF</title>
+    <title>Cardapio digital - BBQ BRO</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-       <h1 id="logo">JF.DEV</h1>
-
-       <nav class="menu">
-        <a href="#home">Home</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#contato">Contato</a>
-       </nav>
+        <img class="logo" src="imagens/logo.png" alt="Logo BBQ BRO">
+        <nav class="menuNav">
+            <a href="#hamb">Hamburguer</a>
+            <a href="#Acomp">Acompanhamento</a>
+            <a href="#beb">Bebidas</a>
+        </nav>
     </header>
     <main>
-        <section id="home">
-            <p>Portifolio Junior Fernandes</p>
-            <p>Bem Vindo(a)</p>
+        <h1>Cardapio</h1>
+        <section id="hamb">
+            <h2>Hamburgues</h2>
+
+            <div class="cards">
+                <img class="produto" src="imagens/burger01.png" alt="Hamburguer"> 
+                <div class="infoproduto">
+                    <h3>Clássico Angus Burger - R$22,50</h3>
+
+                    <p>Delicie-se com o nosso Hambúrguer Clássico, feito com um suculento hambúrguer de carne angus, queijo derretido, alface crocante, tomate fresco e um toque especial do nosso molho secreto. Perfeito para saciar sua fome!
+                    </p>
+
+                    <button mat-button>Pedir</button>
+
+                </div>
+
+                
+            </div>
+
+            <div class="cards">
+                <img class="produto" src="imagens/burger02.png" alt="Hamburguer"> 
+                <div class="infoproduto">
+                    <h3>Gourmet Burger - R$35,00</h3>
+
+                    <p>Descrição: O nosso Hambúrguer Gourmet, preparado com um suculento hambúrguer de carne nobre, queijo derretido, cebola caramelizada e baccon. Uma escolha irresistível!
+                    </p>
+
+                    <button mat-button>Pedir</button>
+
+                </div>
+
+                
+            </div>
+
+            <div class="cards">
+                <img class="produto" src="imagens/burger03.png" alt="Hamburguer"> 
+                <div class="infoproduto">
+                    <h3>Defumado BBQ Burger - R$29,00</h3>
+
+                    <p>Descrição: Deixe-se envolver pelo sabor defumado do nosso Hambúrguer BBQ, uma deliciosa combinação de hambúrguer de carne suculenta, queijo cheddar derretido, cebola caramelizada e salada verde. </p>
+
+                    <button mat-button>Pedir</button>
+
+                </div>
+
+                
+            </div>
+
+            
         </section>
-        <section id="projetos">
-            <div class="projeto">
-                <h1 class="titulo">Receitas</h1>
-                <p class="subtitulo">Pagina de receitas</p>
-                <a id="verMais" href="Exarcicios receita/home.html">Ver Mais</a>
+        <section id="Acomp">
+            <div class="cards">
+                <img class="produto" src="imagens/acomp01.png" alt="Fritas"> 
+                <div class="infoproduto">
+                    <h3>Fritas - R$15,00</h3>
+
+                    <p>Descrição: Nossas batatas fritas são o acompanhamento perfeito para qualquer refeição! Cortadas em palitos e fritas até ficarem douradas e crocantes por fora, e macias por dentro, elas são irresistíveis em cada mordida.</p>
+
+                    <button mat-button>Pedir</button>
+
+                </div>
+                
             </div>
-            <div class="projeto">
-                <h1 class="titulo">Calculadora</h1>
-                <p class="subtitulo">Projeto Calculadora JS</p>
-                <a id="verMais" href="Projeto calculadora/calculadora.html">Ver Mais</a>
-            </div>
-            <div class="projeto">
-                <h1 class="titulo">Hamburgueria</h1>
-                <p class="subititulo">Projeto Cardapio de uma hamburgueria</p>
-                <a id="verMais" href="Projeto hamburgueria/index.html">Ver Mais</a>
-            </div>
+
+           
         </section>
-        <section id="contato">
-            <div class="form-contato">
-                <input type="text" placeholder="Nome">
-                <input type="mail" placeholder="Email">
-                <textarea id="msg"></textarea>
-                <button id="enviar">Enviar</button>
+        <section id="beb">
+            <div class="cards">
+                <img class="produto" src="imagens/bebida01.png" alt="Coca-Cola">
+                <div class="infoproduto">
+
+                    <h3>Coca-Cola - R$5,00</h3>
+                    <p>Descrição: Refresque-se com a clássica Coca-Cola gelada, uma bebida que encanta paladares há décadas. Com seu sabor único e inconfundível para acompanhar seu hambúrguer ou batatas fritas.</p>
+
+                    <button mat-button>Pedir</button>
+
+                </div>
+            </div>
+
+            <div class="cards">
+                <img class="produto" src="imagens/bebida02.png" alt="Sprite">
+                <div class="infoproduto">
+                
+                <h3>Sprite - R$5,00</h3>
+                <p>Descrição: Revitalize seus sentidos com a refrescante Sprite, uma bebida cítrica e efervescente que desperta os sentidos e eleva o seu ânimo para acompanhar seu hambúrguer ou batatas fritas.</p>
+
+                <button mat-button>Pedir</button>
+                </div>
+
             </div>
         </section>
     </main>
-    <footer>Todos os direitos reservados. &copy;</footer>
+
+    <h2></h2>
+    <script src="script.js"></script>
 </body>
 </html>
